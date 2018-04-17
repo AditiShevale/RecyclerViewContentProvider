@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.aditi.mysqllitedatabase.MainActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -41,7 +41,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="326dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="22dp"
         android:layout_marginEnd="148dp"

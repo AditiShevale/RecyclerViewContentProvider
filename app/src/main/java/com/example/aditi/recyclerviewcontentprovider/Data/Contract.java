@@ -21,5 +21,7 @@ public class Contract {
         public static final String TABLE_NAME = "details";
 
         public static final String COLUMN_NAME = "name";
+
+
     }
 }

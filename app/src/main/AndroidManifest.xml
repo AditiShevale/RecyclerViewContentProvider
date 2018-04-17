@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.aditi.recyclerviewcontentprovider">
 
@@ -16,9 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <provider
-            android:authorities="com.example.aditi.recyclerviewcontentprovider.Data.TaskContentProvider"
-            android:name="com.example.aditi.recyclerviewcontentprovider"
+            android:name="com.example.aditi.recyclerviewcontentprovider.Data.TaskContentProvider"
+            android:authorities="com.example.aditi.recyclerviewcontentprovider"
             android:exported="false"/>
     </application>
 
